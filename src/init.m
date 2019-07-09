@@ -3,7 +3,7 @@ n = 800; % size of image
 pow_fi = 1; % power of fi in exp(i*tp*fi)
 tp = 5; % topological charge (for independent topological charge)
 % ----------------------------------------------------------
-vortex = func(r, n, pow_fi);
+vortex = vortex_filter(r, n, pow_fi);
 vortex = 255*angle(vortex)/(2*pi);
 for j=1:size(vortex,1)
     for k=1:size(vortex,2)

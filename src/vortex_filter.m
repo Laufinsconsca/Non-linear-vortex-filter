@@ -3,7 +3,7 @@ h=2*r/n;
 x=-r:h:r-h;
 y=x;
 % this for functionally dependent topological charge
-tp = top_charge(y,x);
+tp = dependent_top_charge(y,x);
 vortex = zeros(size(y,2), size(x,2));
 %---------------------------------------------------
 if nargin == 3
