@@ -1,4 +1,4 @@
-function vortex = func(r, n, pow_fi, tp_input)
+function vortex = vortex_filter(r, n, pow_fi, tp_input)
 h=2*r/n;
 x=-r:h:r-h;
 y=x;
