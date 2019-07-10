@@ -1,1 +1,1 @@
-# Genertion phase masks of non-linear vortex filter
+# Phase distribution generation of non-linear vortex filter
