@@ -16,7 +16,11 @@ for j=1:size(y,2)
     else 
     q = 1;
     end
-    vortex(j,k) = exp(-1i*tp_input(q)*atan2(-y(j),x(k)).^pow_fi);
+    angle = atan2(-y(j),x(k));
+    if angle < 0
+        angle = angle + 2*pi;
+    end
+    vortex(j,k) = exp(1i*tp_input(q)*angle.^pow_fi);
     end
 end
 end

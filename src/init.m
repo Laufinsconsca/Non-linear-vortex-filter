@@ -1,6 +1,6 @@
 r = 5; % define width of the split interval 
 n = 800; % size of image
-pow_fi = 1; % power of fi in exp(i*tp*fi)
+pow_fi = 2; % power of fi in exp(i*tp*fi)
 tp = 5; % topological charge (for independent topological charge)
 % ----------------------------------------------------------
 vortex = vortex_filter(r, n, pow_fi);
