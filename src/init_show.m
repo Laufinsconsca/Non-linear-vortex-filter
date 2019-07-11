@@ -2,7 +2,7 @@ syms r; % for independent topological charge
 r1 = 5; % define width of the split interval 
 n = 512; % size of image
 pow_fi = 1; % power of fi in exp(i*tp*fi)
-tp = r;
+tp = r; % tp can be either a constant or a function
 % ----------------------------------------------------------
 % tp is a topological charge
 % ----------------------------------------------------------

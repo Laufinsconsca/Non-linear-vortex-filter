@@ -3,7 +3,7 @@ r1 = 5; % define width of the split interval
 n = 512; % size of image
 pow_fi = 2; % power of fi in exp(i*tp*fi)
 % ----------------------------------------------------------
-% tp is a topological charge
+% tp is a topological charge (can be either a constant or a function)
 % ----------------------------------------------------------
 % range of r1, which define width of the split interval
 for r1=1:0.5:5
