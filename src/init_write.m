@@ -50,7 +50,7 @@ for r1=1:0.5:5
        end
        % ----------------------------------------------------------
        % write image on local drive
-       imwrite(vortex, gray(256), strcat('D:\Ó÷¸áà\Matlab\Non-linear vortex filter\512_1\top_charge_',char_tp,'_r0=',num2str(r1),'_fi=',num2str(pow_fi),'.bmp'), 'bmp');
+       imwrite(vortex, gray(256), strcat('images\512\top_charge_',char_tp,'_r0=',num2str(r1),'_fi=',num2str(pow_fi),'.bmp'), 'bmp');
        end
     end
 end
